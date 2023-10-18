@@ -151,7 +151,7 @@ section.imagenes img{
 
 section.mejores {
     width:100%;
-    display: ;
+    display: flex;
     justify-content: center;
 }
 section.mejores img{
