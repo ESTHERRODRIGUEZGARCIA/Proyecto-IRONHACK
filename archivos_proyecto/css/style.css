@@ -124,3 +124,9 @@ section.imagen{
     display: flex;
     justify-content: center;
 }
+
+section.imagen img{
+    width: 30%;
+    max-width: 500px;
+    height: auto;
+}
