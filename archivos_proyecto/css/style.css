@@ -151,12 +151,9 @@ section.imagenes img{
 
 section.mejores {
     width:100%;
-    display: flex;
+    display: ;
     justify-content: center;
-    flex-wrap: wrap;
 }
 section.mejores img{
     width: 100%;
-    max-width: 500px;
-    height: auto;
 }
