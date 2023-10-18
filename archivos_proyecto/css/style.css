@@ -26,25 +26,25 @@ main{
     margin-top: 20px;
 }
 
-nav{
+.centro-nav{
     text-align: center;
-    max-width: 500px;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
-nav ul{
+
+.centro-nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav li{
+.centro-nav li{
     display: inline-block;
     margin: 0 10px;
     vertical-align: middle;
 }
 
-nav a {
+.centro-nav a {
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -58,7 +58,7 @@ nav a {
     border-radius: 0.25rem;
 }
 
-nav a:hover {
+.centro-nav a:hover {
     background-color: #010e04;
 }
 
