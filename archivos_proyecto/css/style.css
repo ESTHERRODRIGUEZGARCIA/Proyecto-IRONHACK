@@ -130,3 +130,13 @@ section.imagen img{
     max-width: 500px;
     height: auto;
 }
+
+section.imagenes{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+section.imagenes img{
+    width: 30%;
+}
