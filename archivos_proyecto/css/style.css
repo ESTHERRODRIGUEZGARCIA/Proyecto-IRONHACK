@@ -156,7 +156,7 @@ section.mejores {
     flex-wrap: wrap;
 }
 section.mejores img{
-    width: 30%;
+    width: 100%;
     max-width: 500px;
     height: auto;
 }
