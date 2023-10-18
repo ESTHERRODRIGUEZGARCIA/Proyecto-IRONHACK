@@ -148,3 +148,10 @@ section.imagenes{
 section.imagenes img{
     width: 30%;
 }
+
+section.mejores {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
