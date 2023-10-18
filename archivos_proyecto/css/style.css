@@ -148,7 +148,7 @@ section.imagenes{
 
 }
 section.imagenes img{
-    width: 30%;
+    width: 15%;
 }
 
 section.mejores {
@@ -158,5 +158,5 @@ section.mejores {
     overflow: hidden;
 }
 section.mejores img{
-    width: 100%;
+    width: 50%;
 }
