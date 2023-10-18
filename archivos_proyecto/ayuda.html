@@ -8,6 +8,14 @@
 </head>
 
 <body>
+    <nav class="centro-nav">
+        <ul>
+            <li><a href="inicio.html" class="Inicio">Inicio</a></li>
+            <li><a href="conciertos.html" class="Conciertos">Conciertos</a></li>
+            <li><a href="ayuda.html" class="Ayuda">Ayuda</a></li>
+        </ul>
+    </nav>
+
     <header>
         <h1>
             Ayuda
@@ -23,28 +31,21 @@
         <p>¡Gracias por confiar en nosotros!    </p>
     </header>
 
-    <nav class="centro-nav">
-        <ul>
-            <li><a href="inicio.html" class="Inicio">Inicio</a></li>
-            <li><a href="conciertos.html" class="Conciertos">Conciertos</a></li>
-            <li><a href="ayuda.html" class="Ayuda">Ayuda</a></li>
-        </ul>
-    </nav>
-    
+
     <section>
         <h2>Formulario de Contacto</h2>
         <form action="#" method="post">
             <label for="nombre">Nombre y Apellidos:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellidos" required>
             <br>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="email" name="email" id="email" placeholder="Email: ejemplo@gmail.com" required>
             <br>
             <label for="asunto">Asunto:</label>
             <select id="asunto" name="asunto" required>
                 <option value="error_pago">Error de pago</option>
                 <option value="error_informacion">Error de información</option>
-                <option value="otros">otros</option>
+                <option value="otros">Otros</option>
             </select>
             <br>
             <label for="mensaje">Mensaje</label>
