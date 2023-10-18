@@ -171,3 +171,12 @@ section.mejores {
 section.mejores img{
     width: 50%;
 }
+
+@media (max-width: 768px) {
+    section.imagenes img{
+        width: 30%;
+    }
+    section.mejores img{
+        width: 100%;
+    }
+}
