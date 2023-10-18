@@ -118,3 +118,9 @@ form button:hover {
     background-color: #010e04;
     border: 1px solid #010e04;
 }
+
+section.imagen{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
