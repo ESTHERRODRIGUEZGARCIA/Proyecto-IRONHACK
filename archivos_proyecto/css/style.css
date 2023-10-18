@@ -143,6 +143,8 @@ section.imagenes{
     width:100%;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+
 
 }
 section.imagenes img{
@@ -153,6 +155,7 @@ section.mejores {
     width:100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 section.mejores img{
     width: 100%;
