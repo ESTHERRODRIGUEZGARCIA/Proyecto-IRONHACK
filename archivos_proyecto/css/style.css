@@ -11,6 +11,49 @@ body{
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    header{
+        padding: 10px 0;
+    }
+    main {
+        padding: 10px 0;
+    }
+    .centro-nav{
+        margin: 10px auto;
+        max-width: none;
+    }
+    .centro-nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .centro-nav li{
+        display: block;
+        margin: 10px 0;
+        max-width: none;
+    }
+    .centro-nav a {
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 0.5rem;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    section.imagen img{
+        width: 100%;
+    }
+    section.imagenes img{
+        width: 30%;
+    }
+    section.mejores img{
+        width: 100%;
+    }
+    footer {
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+}
 header{
     background-color: #e32525;
     padding: 20px 0;
@@ -23,6 +66,12 @@ main{
     border-bottom: 1px solid #e46666;
     text-align: center;
     margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    main{
+        padding: 20px 0;
+    }
 }
 
 .centro-nav{
@@ -172,11 +221,3 @@ section.mejores img{
     width: 50%;
 }
 
-@media (max-width: 768px) {
-    section.imagenes img{
-        width: 30%;
-    }
-    section.mejores img{
-        width: 100%;
-    }
-}
